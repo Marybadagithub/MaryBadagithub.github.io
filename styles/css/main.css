@@ -1,0 +1,68 @@
+*{
+  box-sizing:border-box;
+}
+
+header {
+  border:5px solid;
+  line-height:60px;
+  /* background-color:#003768; */
+  background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+section {
+  border: 1px solid yellow;
+  background-color:#e8ecef;
+  width:75%;
+  line-height: 800px;
+  display:inline-block;
+  font-size: initial;
+}
+
+.secondborder{
+height: 80px;
+width: 100%;
+border:5px solid;
+line-height:60px;
+font-size: 0;
+font-size: initial;
+background-color:#551111;
+ background:linear-gradient(-30deg, #551111, ##751313)
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
+aside{
+  border:1px solid blue;
+  background-color:#e8ecef;
+  width:25%;
+  line-height: 800px;
+  display:inline-block;
+  font-size:initial;
+}
+main{
+  min-height:800px;
+  border:2px dashed blue;
+  width:100%;
+  font-size: 0;
+}
+
+footer{
+  border:2px dashed green;
+  background-color:#551111;
+  height: 180px;
+}
